@@ -47,7 +47,7 @@ uluk ulik tanpa izin itu sangad merosakan
 
 ## Izin Mengulik
 
-Lisensinya pake yang MIT, ya! Detailnya ada di file [LICENSE](LICENSE).
+Lisensinya pake yang MIT, ya! Detailnya ada di file [LICENSE](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJSirwgR5O1HWfwR6ou54q8WGDfFkfx2xtpw&usqp=CAU).
 ```
 
 ## Pembuatnya yaa ente tahu lah siapa ini sebenarnya untuk latihan logika Javascript saja 
