@@ -28,7 +28,7 @@ Ini web aplikasi buat ngasih tau kita berapa hari lagi sampe Ramadan. Ada juga b
 1. Clone repositorinya.
    ```bash
    git clone https://github.com/Adyfas/<nama repositori>
-   ```
+```
    
 sengaja begitu biar ente mandiri ok selanjutnya....
 
@@ -42,7 +42,8 @@ Gak pake dependensi dari luar, bro. Ini proyek simpel yang dibangun pake HTML, C
 
 ## Nambahin Ide atau Kode
 
-Bebas banget, gan. Kalo ada saran atau kode baru, tinggal bikin issue atau pull request aja. Aturan mainnya ada di [sini](CODE_OF_CONDUCT.md).
+Bebas banget, gan. Kalo ada saran atau kode baru, tinggal bikin issue atau pull request aja. Aturan mainnya ada di [sini](https://www.google.com).
+uluk ulik tanpa izin itu sangad merosakan
 
 ## Izin Mengulik
 
