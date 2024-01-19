@@ -1,0 +1,151 @@
+ body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        animation: fadeIn 1.5s ease-out;
+      }
+
+      .countdown-container {
+        display: flex;
+        justify-content: space-between;
+        font-size: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-top: 20px;
+      }
+
+      .countdown-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+      }
+
+      #bulan, #hari, #jam, #menit, #detik {
+        padding: 10px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        margin: 5px;
+      }
+
+      p {
+        margin: 5px 0;
+      }
+
+      .judul{
+        text-align: center;
+        padding: 20px;
+        background: white;
+        box-shadow: 4px 0 3px rgba(0,0,0,0.5);
+        margin-bottom: 20px;
+      }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .card {
+        width: 300px;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+      }
+
+      .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .card-text {
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+      }
+
+      .card-text h1 {
+        margin: 0;
+      }
+
+      .card-text p {
+        margin: 10px 0;
+      }
+
+      .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .popup-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        animation: popupAnimation 0.5s ease-out;
+      }
+
+      .popup-header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .popup-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+      }
+
+      .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      @keyframes popupAnimation {
+        from {
+          transform: translate(-50%, -50%) scale(0);
+        }
+        to {
+          transform: translate(-50%, -50%) scale(1);
+        }
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
