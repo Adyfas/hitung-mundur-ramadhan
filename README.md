@@ -49,8 +49,6 @@ Bebas banget, gan. Kalo ada saran atau kode baru, tinggal bikin issue atau pull 
 Lisensinya pake yang MIT, ya! Detailnya ada di file [LICENSE](LICENSE).
 ```
 
-Pastikan untuk mengganti `nama-username` dengan username GitHub kamu di link clone. Selain itu, pastikan ada file `LICENSE` dengan lisensi pilihan kamu (misalnya, MIT License), dan file `CODE_OF_CONDUCT.md` jika kamu ingin menentukan aturan perilaku untuk kontributor.
-
 ## Pembuatnya yaa ente tahu lah siapa ini sebenarnya untuk latihan logika Javascript saja 
 
 #TARARENGKYU
