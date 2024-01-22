@@ -1,3 +1,6 @@
+```
+##update!!
+Ini sudah update ketika sudah waktunya Ramadhan Tiba tampilan web nya akan berubah
 
 ```markdown
 # Hitung Mundur Ramadhan 🌙
@@ -28,7 +31,7 @@ Ini web aplikasi buat ngasih tau kita berapa hari lagi sampe Ramadan. Ada juga b
 1. Clone repositorinya.
    ```bash
    git clone https://github.com/Adyfas/<nama repositori>
-```
+   ```
    
 sengaja begitu biar ente mandiri ok selanjutnya....
 
@@ -42,13 +45,14 @@ Gak pake dependensi dari luar, bro. Ini proyek simpel yang dibangun pake HTML, C
 
 ## Nambahin Ide atau Kode
 
-Bebas banget, gan. Kalo ada saran atau kode baru, tinggal bikin issue atau pull request aja. Aturan mainnya ada di [sini](https://www.google.com).
-uluk ulik tanpa izin itu sangad merosakan
+Bebas banget, gan. Kalo ada saran atau kode baru, tinggal bikin issue atau pull request aja. Aturan mainnya ada di [sini](CODE_OF_CONDUCT.md).
 
 ## Izin Mengulik
 
-Lisensinya pake yang MIT, ya! Detailnya ada di file [LICENSE](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJSirwgR5O1HWfwR6ou54q8WGDfFkfx2xtpw&usqp=CAU).
+Lisensinya pake yang MIT, ya! Detailnya ada di file [LICENSE](LICENSE).
 ```
+
+Pastikan untuk mengganti `nama-username` dengan username GitHub kamu di link clone. Selain itu, pastikan ada file `LICENSE` dengan lisensi pilihan kamu (misalnya, MIT License), dan file `CODE_OF_CONDUCT.md` jika kamu ingin menentukan aturan perilaku untuk kontributor.
 
 ## Pembuatnya yaa ente tahu lah siapa ini sebenarnya untuk latihan logika Javascript saja 
 
