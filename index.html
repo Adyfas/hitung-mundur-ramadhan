@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVsI13RUOeVd-Z-v7CnD8rlC2YmVtQc4Eb0A&usqp=CAU" rel="icon">
+  <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVsI13RUOeVd-Z-v7CnD8rlC2YmVtQc4Eb0A&usqp=CAU" rel="apple-touch-icon">
     <link rel="stylesheet" href="style.css">
     <title>Hitung Mundur Ramadhan</title>
 </head>
 <body>
+  
+
   <div id="popup" class="popup">
         <div class="popup-content">
             <span class="close" id="closePopup">&times;</span>
-            <h1>Siapp Puasa Broooo!!!</h1>
-            <p>Latih Javascript Dengan Membuat Web Sederhana Yaitu Web Ramadhan</p>
+            <h1 id="hshs"></h1>
+            <p id="psps"></p>
         </div>
     </div>
   
@@ -41,7 +45,20 @@
         </div>
     </div>
     
+    <h1 id="kata"></h1>
+    
     <div class="card-container">
+      
+      <a id="duar" href="https://youtu.be/aNhAadimMGs?si=r9QEHMO3H34oId_w" target="_blank"  class="card">
+        <img id="duar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM084qHGCnke4nWILkgADAySjDWQRBHN3KEw&usqp=CAU" alt="Gambar Doa-doa Ramadhan">
+        <div id="duar" class="card-text">
+          <h1>Ayuk Main Dini</h1>
+          <p>Klik Untuk Nyayi....</p>
+        </div>
+      </a>
+      
+      
+      
       <a href="https://www.google.com/amp/s/www.detik.com/hikmah/khazanah/d-7074847/puasa-ramadan-2024-berapa-hari-lagi-ini-hitung-mundurnya/amp" target="_blank"  class="card">
         <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTE1UU48mOi2OWt8hZMwQN12uak341IrkpgLo2RuC6YjqSv32ou0QNE-1cqiDbziPXlEOvDOWDbi9rEJAN6" alt="Gambar Doa-doa Ramadhan">
         <div class="card-text">
@@ -73,12 +90,12 @@
           <p>Bisnis.com, JAKARTA -- Pemerintah telah menetapkan libur nasional Hari Raya Idul Fitri 1445 Hijriah pada 10-11 April 2024......</p>
         </div>
       </a>
-      
       <a href="https://www.google.com/amp/s/www.detik.com/jateng/berita/d-7130333/kapan-idul-fitri-2024-cek-tanggal-dan-jadwal-liburnya-di-sini/amp" target="_blank" class="card">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaYWJLGlPpzphHScUlq1ZBhViXe_73vSbHWQ&usqp=CAU" alt="Gambar Doa-doa Ramadhan">
         <div class="card-text">
           <h1>Kapan Idul Fitri 2024? Cek Tanggal dan Jadwal Liburnya di Sini</h1>
           <p>Solo - Jadwal hari Lebaran atau Idul Fitri 2024 menjadi sebuah informasi penting yang perlu diketahui oleh masyarakat, khususnya bagi umat Islam. Lantas kapan Idul Fitri 2024?......</p>
+          
         </div>
       </a>
 
@@ -90,47 +107,7 @@
         <p>&copy; 2024 Web Hitung Mundur Ramadhan by Adyfas || Ferdi</p>
     </div>
 </footer>
+<script src="script.js"></script>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        setTimeout(function() {
-          document.getElementById('popup').style.display = 'block';
-        }, 1000);
-      });
-
-      document.getElementById('closePopup').addEventListener('click', function() {
-        document.getElementById('popup').style.display = 'none';
-      });
-
-      window.addEventListener('click', function(event) {
-        var popup = document.getElementById('popup');
-        if (event.target == popup) {
-          popup.style.display = 'none';
-        }
-      });
-
-      document.addEventListener('DOMContentLoaded', function() {
-        const targetDate = new Date('March 11, 2024 18:00:00').getTime();
-
-        function updateCountdown() {
-          const currentDate = new Date().getTime();
-          const timeDifference = targetDate - currentDate;
-
-          const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-          const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-          const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-
-          document.getElementById('bulan').innerText = '00'; // Sesuaikan nilai bulan sesuai kebutuhan
-          document.getElementById('hari').innerText = days < 10 ? '0' + days : days;
-          document.getElementById('jam').innerText = hours < 10 ? '0' + hours : hours;
-          document.getElementById('menit').innerText = minutes < 10 ? '0' + minutes : minutes;
-          document.getElementById('detik').innerText = seconds < 10 ? '0' + seconds : seconds;
-        }
-
-        updateCountdown(); 
-        setInterval(updateCountdown, 1000);
-      });
-    </script>
 </body>
-            </html>
+    </html>
