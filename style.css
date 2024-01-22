@@ -38,6 +38,7 @@
         background: white;
         box-shadow: 4px 0 3px rgba(0,0,0,0.5);
         margin-bottom: 20px;
+        
       }
 
       .card-container {
@@ -149,3 +150,26 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+#kata{
+  display:flex-wrap;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 60px;
+  
+}
+
+#duar:hover {
+    border: 2px solid #3498db; 
+    animation: borderAnimation 2s infinite alternate; 
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-color: #3498db;
+    }
+    100% {
+        border-color: #e74c3c; 
+    }
+}
+
