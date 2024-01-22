@@ -1,6 +1,6 @@
 ```
 ##update!!
-Ini sudah update ketika sudah waktunya Ramadhan Tiba tampilan web nya akan berubah
+Ini sudah update, ketika sudah waktunya Ramadhan Tiba, tampilan web nya akan berubah
 
 ```markdown
 # Hitung Mundur Ramadhan 🌙
